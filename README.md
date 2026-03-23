@@ -22,126 +22,114 @@ poder entender los diferentes usos de las herramientas que utilizaremos durante 
 # Especificación de requisitos
 ## Requisitos funcionales
 ### Registro de usuarios
-#### Nombre (mínimo 3 letras, sin números),
-#### Apellido (mínimo 3 letras, sin números),
-#### Documento (entre 3 y 15 dígitos, solo números),
-#### Correo electrónico (debe contener “@” y terminar en “.com”),
-#### Tiempo de préstamo (solo valores permitidos: 5, 10, 15 o 30 días); 
-#### Validar todos los datos ingresados
-Mostrar mensajes de error si los datos no cumplen las condiciones
+Nombre (mínimo 3 letras, sin números),
+apellido (mínimo 3 letras, sin números),
+documento (entre 3 y 15 dígitos, solo números),
+correo electrónico (debe contener “@” y terminar en “.com”),
+tiempo de préstamo (solo valores permitidos: 5, 10, 15 o 30 días);
+validar todos los datos ingresados y
+mostrar mensajes de error si los datos no cumplen las condiciones
 ### Registro de ítems
-#### El sistema debe permitir registrar objetos a prestar con:
-##### Nombre (mínimo 3 letras, puede contener números)
-##### Categoría (solo una de las siguientes):
-###### Videojuegos,
-###### Libros,
-###### Música y video,
-###### Herramientas,
-###### Dinero,
-###### Misceláneo y varios,
-##### Precio de compra,
-##### ID único (alfanumérico, asociado a la categoría)
-##### Estado del ítem (usando lógica difusa)
+#### El sistema debe permitir 
+registrar objetos a prestar con
+nombre (mínimo 3 letras, puede contener números),
+categoría (solo una de las siguientes):
+videojuegos,
+ libros,
+ música y video,
+ herramientas,
+dinero,
+ misceláneo y varios;
+ precio de compra,
+ ID único (alfanumérico, asociado a la categoría) y
+ estado del ítem (usando lógica difusa)
 ### Registro de préstamos
 
-#### El sistema debe:
+ #### El sistema debe:
 
-##### Permitir préstamos solo a usuarios registrados
-##### Permitir seleccionar ítems disponibles por ID
-##### Validar que el usuario exista
-##### Registrar:
-###### Usuario
-###### Ítem
-###### Fecha de préstamo
-###### Tiempo de préstamo
+ Permitir préstamos solo a usuarios registrados,
+permitir seleccionar ítems disponibles por ID,
+validar que el usuario exista y
+Registrar:
+usuario,
+ ítem,
+ fecha de préstamo y
+tiempo de préstamo.
+Permitir devoluciones solo de préstamos activos y
+validar si el usuario tiene préstamos activos
 
 #### Si el usuario no existe:
 
-##### Mostrar mensaje de error
-##### Solicitar registro previo
-### Registro de devoluciones
+ mostrar mensaje de error,
+solicitar registro previo,
+ registro de devoluciones.
+
+
+
+#### Si SÍ tiene usuario debe :
+
+Registrar devolución,
+ Generar certificado en archivo de texto (o PDF opcional) con:
+ Nombre del usuario,
+Fecha de devolución,
+ID del préstamo y
+### Generación de ventas.
 
 #### El sistema debe:
 
-##### Permitir devoluciones solo de préstamos activos
-##### Validar si el usuario tiene préstamos activos
-
-#### Si NO tiene:
-
-##### Mostrar mensaje de error
-
-#### Si SÍ tiene:
-
-##### Registrar devolución
-##### Generar certificado en archivo de texto (o PDF opcional) con:
-##### Nombre del usuario
-##### Fecha de devolución
-##### ID del préstamo
-### Generación de ventas
-
-#### El sistema debe:
-
-##### Detectar préstamos mayores a 30 días
-##### Convertirlos automáticamente en venta
-##### Generar factura con:
-##### Motivo de venta
-##### Subtotal
-##### Impuesto del 23%
-##### Total a pagar
+Detectar préstamos mayores a 30 días,
+ convertirlos automáticamente en venta y
+ generar factura con:
+ motivo de venta,
+ subtotal,
+ impuesto del 23% y
+total a pagar.
 
 ### Consulta de estado de préstamos
 
 #### El sistema debe:
 
-##### Mostrar lista de ítems prestados
-##### Ordenarlos por cantidad de días
-##### Usar estadísticas básicas
-##### Leer y almacenar datos en archivos planos
+ Mostrar lista de ítems prestados,
+ ordenarlos por cantidad de días,
+usar estadísticas básicas y
+ leer y almacenar datos en archivos planos.
 ### Módulo de administrador
 
 #### El sistema debe: 
 
-##### Permitir acceso solo con usuario y contraseña válidos
-##### Validar contra una lista almacenada
-
-##### Debe mostrar reportes:
-
-###### Total de préstamos
-###### Total de devoluciones
-###### Total de ventas
-###### Total de dinero recaudado
-###### Lista de usuarios
-###### Usuario con más préstamos
-###### Usuario con menos préstamos
-## Requisitos no funcionales
+ Permitir acceso solo con usuario y contraseña válidos, 
+validar contra una lista almacenada, mostrar reportes de: total de préstamos, total de devoluciones, total de ventas
+total de dinero recaudado, lista de usuarios,
+usuario con más préstamos y
+usuario con menos préstamos.
+## Requisitos no funcionales.
 
 ### Seguridad
-#### Validación de acceso para administrador
-#### Protección de credenciales
-#### Control de acceso a funciones sensibles
-### Rendimiento
-#### Respuesta rápida en consultas y registros
-#### Manejo eficiente de múltiples datos
+Validación de acceso para administrador, protección de credenciales,
+control de acceso a funciones sensibles,
+rendimiento,
+respuesta rápida en consultas y registros y
+manejo eficiente de múltiples datos
 ### Usabilidad
-#### Interfaz clara tipo menú 
-#### Mensajes de error comprensibles
-#### Flujo lógico de navegación
+Una interfaz clara tipo menú, 
+mensajes de error comprensibles y
+flujo lógico de navegación.
 ### Persistencia de datos
-#### Uso de archivos planos para almacenar información
-#### Lectura y escritura correcta de datos
-#### Conservación de datos entre ejecuciones
+ Uso de archivos planos para almacenar información,
+lectura y escritura correcta de datos y
+conservación de datos entre ejecuciones.
 ### Integridad de datos
-#### Validaciones estrictas en entradas
-#### Evitar duplicados 
-#### Consistencia en préstamos, devoluciones y ventas
+Validaciones estrictas en entradas,
+evitar duplicados, 
+consistencia en préstamos, devoluciones y ventas,
 ### Conservación 
-#### Código organizado por módulos (usuarios, ítems, préstamos, etc.)
-#### Fácil de modificar o ampliar
+Contará con un código organizado por módulos (usuarios, ítems, préstamos, etc.),
+fácil de modificar o ampliar,
 ### Flexibilidad 
-#### Posibilidad de agregar nuevas categorías o funcionalidades
-#### Soporte para mayor cantidad de usuarios e ítems
+ Posibilidad de agregar nuevas categorías o funcionalidades y
+soporte para mayor cantidad de usuarios e ítems
 ### Generación de archivos
-#### Creación de archivos de texto para:
-#### Certificados de devolución
-#### Facturas de venta
+La creación de archivos de texto para:
+Certificados de devolución y
+para facturas de venta
 
