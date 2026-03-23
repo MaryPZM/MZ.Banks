@@ -1,4 +1,7 @@
 # MZ.Banks
+
+![watermarked-7b970d1c-0693-4d4c-a8e0-52cc1e018993](https://github.com/user-attachments/assets/8ff063be-a0ac-4895-9fca-945b37fbb5d4)
+
 # Descripción: 
 En este repositorio se presenta el uso de herramientas que nos facilitaran la organizacion conceptual, que forma parte de la creacion de un programa de consola visualmente amigable al usuario, en donde permita gestionar el
 préstamo de artículos, gestionando mediante archivos planos la información, para posteriormente
