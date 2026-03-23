@@ -1,8 +1,8 @@
 # MZ.Banks
 Descripción: En este repositorio se utilizaran herramientas aprendidas 
 # *Integrantes:* 
-## *Mary Paz Zuluaga Muñoz, estudiante del tercer semestre del programa de Ingenieria Industrial de a unversidad de Antioquia*
-## *María Carolina Chaparro Ruiz, estudiante del tercer semestre del programa de Ingenieria Industrial de a unversidad de Antioquia*
+## *Mary Paz Zuluaga Muñoz*, estudiante del tercer semestre del programa de Ingenieria Industrial de a unversidad de Antioquia
+## *María Carolina Chaparro Ruiz*, estudiante del tercer semestre del programa de Ingenieria Industrial de a unversidad de Antioquia
 # *Visión*
 # Descripcion
 
