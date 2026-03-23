@@ -60,13 +60,13 @@ validar si el usuario tiene préstamos activos
 
 #### Si el usuario no existe:
 
- mostrar mensaje de error,
+ Mostrar mensaje de error,
 solicitar registro previo,
  registro de devoluciones.
 
 
 
-#### Si SÍ tiene usuario debe :
+#### Si, sí tiene usuario debe :
 
 Registrar devolución,
  Generar certificado en archivo de texto (o PDF opcional) con:
