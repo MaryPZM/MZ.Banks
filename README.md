@@ -21,6 +21,14 @@ Este sistema permitrá organizar y controlar información relacionada con cuenta
 Se planea realizar con exito el programa de tal manera que facilite la organización de registros en un ámbito empresarial; mientras tanto, tambien se desea adquirir el conocimiento brindado acerca del uso y aplicación de herramientas que nos facilitaran futuros procesos y
 poder entender los diferentes usos de las herramientas que utilizaremos durante este proceso.
 
+# *Nombre del proyecto y detalles*
+
+## *Nombre*
+El nombre del software es MZ.Banks
+## *Detalles*
+El software de gestión de préstamos MZ.Banks creado para generar una solución a Michael Jackson Gamboa, quien necesita para tener un orden y dar seguimiento a los objetos que presta entre sus amigos. El sistema permite registrar usuarios, administrar inventarios de ítems, controlar préstamos y devoluciones, generar certificados y facturas, así como consultar reportes administrativos.
+La función principal del software es centralizar y automatizar los procesos asociados a los préstamos, facilitando la identificación y organización de las variables involucradas en los prestamos como lo son el prestamista, los deudores, la descripción de los ítems prestados, los tiempos de préstamo, los estados de devolución, la generación de documentos legales como facturas de venta por mora, y alertas de seguimiento.
+Con una interfaz amigable basada en consola y respaldada por almacenamiento en archivos planos, MZ.Banks asegura que Michael Jackson pueda registrar, consultar y gestionar de manera eficiente cada transacción, disminuyendo el riesgo de olvidos y garantizando el control total sobre su inventario y relaciones personales.
 
 # Especificación de requisitos
 ## Requisitos funcionales
