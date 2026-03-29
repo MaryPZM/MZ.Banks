@@ -146,5 +146,7 @@ para facturas de venta
 
 # Plan del Proyecto
 ##Presupuesto
-![Texto alternativo]()
+!(img/WhatsApp Image 2026-03-27 at 2.06.37 PM.jpeg)
+
+
 
