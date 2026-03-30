@@ -147,7 +147,7 @@ para facturas de venta
 # Plan del Proyecto
 ## Presupuesto
 
-<img src="img/WhatsApp Image 2026-03-27 at 2.06.37 PM.jpeg" width="500">
+<img src="img/WhatsApp Image 2026-03-30 at 11.46.12 AM.jpeg" width="500">
 
 ## Cronograma
 
