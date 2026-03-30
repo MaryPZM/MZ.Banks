@@ -149,6 +149,12 @@ para facturas de venta
 
 <img src="img/WhatsApp Image 2026-03-27 at 2.06.37 PM.jpeg" width="500">
 
+##Cronograma
+
+<img src="img/image.png">
+
+
+
 
 
 
