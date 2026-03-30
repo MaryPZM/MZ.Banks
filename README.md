@@ -151,7 +151,8 @@ para facturas de venta
 
 ##Cronograma
 
-<img src="img/image.png">
+<img src="img/Screenshot 2026-03-29 231016.png">
+
 
 
 
