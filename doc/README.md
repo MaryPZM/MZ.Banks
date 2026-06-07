@@ -58,9 +58,10 @@ En caso de que el ID del ítem no exita o el usuario no este registrado el progr
 Permite, a un usuario ya registrado, ingresar la devolucioón de un préstamo con el siguiente proceso:
 - Se ingresa el documento del usuario
 - Se ingresa el ID del ítem a devolver
-  En caso, de ngresar mal el ID del ítem prestado o el de un ítem no prestado el gestor no permitira la continuidad del registro
+ En caso, de ingresar mal el ID del ítem prestado o el de un ítem no prestado el gestor no permitira la continuidad del registro
 - Se informa de la cantidad de días que el usuario a estado con el ítam
-  -  ,xkdmcdks 
+  En caso de que se encuentre dentro de los días estipulados de devolución se sigue con el proceso normal.
+  En el caso contrario, se genera un venta forzada del ítem y genera un factura con la siguiente información: Motivo de la venta forzosa, número de la transacción, el ID del ítem, una descripcion del ítem, la cédula del comprador, subtotal, precio base más un impuesto de 23%.
 - Se introduce en una valoracion del 1.0 a 10.0 acerca del estado del ítem
 
 Si el proceso es correcto, el gestor entrega un mensaje informando que el registro fue un exito y genera un certifcado nombrado con el nombre completo del usuario, la fecha actual y el ID del ítem.
@@ -70,19 +71,19 @@ Para consultar si existen ítems con más de 30 días, se realiza el siguiente p
 - Se ingresa el documento del usuario
 - El gestor informa si existen prestamos registrados por el usuario con más de 30 dias
   En caso de que sí
-  - jyuy7h8uji
+  - Muestra un reporte detallado del retraso, inicialmente indica la cantidad de prestamos con retraso, luego muestra cada prestamo a detalle, indica que número transacción es, el ID del ítem, una descripcion, el nombre y la cédula del prestamista y la cantidad de días de retraso que tiene el ítem.
   En caso de que no:
   - El programa informa al usuario que no existen prestamos con retraso
 
 #### Consultar artículos prestados
-Muestra...
+Muestra un documento con la lista de los ítems prestados, muestra cada prestamo a detalle, indica que número ítem es, el tiempo que el ítem lleva préstado, el ID del ítem y una descripcion, y el nombre del prestamista.
 
 #### Administador
 Permite al administrador ingresar al gestor con los siguientes datos:
 - Usuario del administrador
 - Constraseña del usuario
   
-Si el ingreso es correcto, muestra al administrador el menu de administradores:
+Si el ingreso es correcto, muestra al administrador el menú de administradores:
 ------------------------------------------------------------
                           MZ.Banks                          
 
@@ -104,11 +105,15 @@ Muestra un reporte detallado de los prestamos, inicialmente indica la cantidad d
 #### Total de ítem devueltos
 Muestra un reporte detallado de las devoluciones, inicialmente indica la cantidad de prestamos devueltos, luego muestra cada devolución a detalle, indica que número devolución es, el ID del ítem, una descripcion, la cédula del prestamista y el estado del ítem devuelto.
 #### Total de ventas realizadas
-mcdwkndskmvcfklds
+Muestra un reporte detallado del total de ventas, inicialmente indica la cantidad de ventas forzadas, luego muestra cada devolución a detalle de venta, indica que número de venta que es, el ID del ítem, la cédula del prestamista, la fecha en que fue realizada la venta y el total pagado.
 #### Total pago realizado
-mcdsomcdklsm
+Muestra un reporte detallado del total de ingresos a la caja, inicialmente indica la cantidad de ventas forzadas, en un caja va sumando los ingresos de dichas ventas.
 #### Lista de Usuarios
 Muestra un reporte detallado de los usuarios, inicialmente indica la cantidad de usuarios registrados, luego muestra los datos que fueron solicitados en el registro de cada usuario.
 #### Usuario con mayor y menor cantidad de préstamos
 Muestra un reporte detallado del récord de préstamso activos, el programa indica dos datos el usuario con más prestamos registrados y el que menos tiene, muestra el número de prestamos, el nombre y cédula del usuario.
-#### 
+
+#### Para salir del menú de administradores se selecciona la opción 7 de salir y el programa devuelve al menú principal.
+
+### Para salir del programa se selecciona la opcion 7 del menú prinicpal.
+
