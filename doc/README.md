@@ -3,7 +3,7 @@ Bienvenido al manual de usuario del gestor de prestamos de MZ.Banks desarrollado
 
 ## Usuario
 ### Ingreso al gestor
- Inicialmente encontraran la siguiente pantalla con el **Menu principal**
+ Inicialmente encontraran la siguiente pantalla con el **Menú principal**
  
 ------------------------------------------------------------
                           MZ.Banks                          
@@ -31,7 +31,7 @@ Permite ingresar un usuario nuevo al gestor con los siguientes datos:
 - Correo electronico, este debe contener un @ y terminar en .com
 - Tiempo de prestamo, debe escoger entre las opciones de tiempo dadas: 5, 10, 15 o 30 días
   
-En caso de que alguno de los datos no cumpla con las restricciones mencionadas el gestor arrogara error, de cumplir con todo lo solicitado el programa muestra un mesaje de registro exitospo y la oportunidad de registrar otro usuario nuevo o devolcerse al menu de inicio.
+En caso de que alguno de los datos no cumpla con las restricciones mencionadas el gestor arrojara error, de cumplir con todo lo solicitado el programa muestra un mesaje de registro exitospo y la oportunidad de registrar otro usuario nuevo o devolcerse al menu de inicio.
 
 #### Registrar préstamo
 Permite, a un usuario ya registrado, ingresar el préstamo de ítem con el siguiente proceso:
