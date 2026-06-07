@@ -9,9 +9,9 @@ exportar los resultados a un CSV usando Python.
  
 # *Integrantes:* 
 ## *Mary Paz Zuluaga Muñoz* 
-estudiante del tercer semestre del programa de Ingenieria Industrial de la unversidad de Antioquia, la cual sera de gran ayuda para este proyecto ya que cuanta con fortalezas como la resposabilidad, liderazgo y la disciplina, las cuales aportara adecuadamente.
+Estudiante del tercer semestre del programa de Ingenieria Industrial de la unversidad de Antioquia, la cual sera de gran ayuda para este proyecto ya que cuanta con fortalezas como la resposabilidad, liderazgo y la disciplina, las cuales aportara adecuadamente.
 ## *María Carolina Chaparro Ruiz* 
-estudiante del tercer semestre del programa de Ingenieria Industrial de la unversidad de Antioquia, la cual sera de gran ayuda para este proyecto ya que cuanta con fortalezas como la resposabilidad, cratividad, trabajo en equipo y compromiso, las cuales ayudaran a equilibrar la colaboracion en equipo.
+Estudiante del tercer semestre del programa de Ingenieria Industrial de la unversidad de Antioquia, la cual sera de gran ayuda para este proyecto ya que cuanta con fortalezas como la resposabilidad, cratividad, trabajo en equipo y compromiso, las cuales ayudaran a equilibrar la colaboracion en equipo.
 
 <a href="https://github.com/MaryPZM/MZ.Banks">MZ.Banks</a> © 2026 by <a href="https://github.com/MaryPZM">Mary Paz Zuluaga Muñoz</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
