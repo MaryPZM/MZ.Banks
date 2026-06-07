@@ -111,7 +111,7 @@ Muestra un reporte detallado del total de ingresos a la caja, inicialmente indic
 #### Lista de Usuarios
 Muestra un reporte detallado de los usuarios, inicialmente indica la cantidad de usuarios registrados, luego muestra los datos que fueron solicitados en el registro de cada usuario.
 #### Usuario con mayor y menor cantidad de préstamos
-Muestra un reporte detallado del récord de préstamso activos, el programa indica dos datos el usuario con más prestamos registrados y el que menos tiene, muestra el número de prestamos, el nombre y cédula del usuario.
+Muestra un reporte detallado del récord de préstamso activos, el programa indica dos datos el usuario con más prestamos registrados y el que menos tiene, muestra el número de prestamos, el nombre y cédula del usuario. En caso de que todos los usuarios tengan la misma cantidad de prestamos el progrma muestra la lista de todos los usuarios con la cantidad de prestamos, nombre y cédula. En caso de que no hayan prestamos registrados arroja un mensaje informando que no hay prestamos registrados activos en el sistema.
 
 #### Para salir del menú de administradores se selecciona la opción 7 de salir y el programa devuelve al menú principal.
 
