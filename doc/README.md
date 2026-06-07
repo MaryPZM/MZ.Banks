@@ -19,7 +19,6 @@ Bienvenido al manual de usuario del gestor de prestamos de MZ.Banks desarrollado
     6. Administrador 
     7. Salir
     
-Favor registrar la opcion deseada-->
 
 Seleccionara el número de la acción que desee realizar 
 
@@ -32,7 +31,7 @@ Permite ingresar un usuario nuevo al gestor con los siguientes datos:
 - Correo electronico, este debe contener un @ y terminar en .com
 - Tiempo de prestamo, debe escoger entre las opciones de tiempo dadas: 5, 10, 15 o 30 días
   
-En caso de que alguno de los datos no cumpla con las restricciones mencionadas el gestor arrogara error, de cumplir con todo lo solicitado el programa muestra un mesaje de registro exito y la oportunidad de registrar otro usuario nuevo o devolcerse al menu de inicio.
+En caso de que alguno de los datos no cumpla con las restricciones mencionadas el gestor arrogara error, de cumplir con todo lo solicitado el programa muestra un mesaje de registro exitospo y la oportunidad de registrar otro usuario nuevo o devolcerse al menu de inicio.
 
 #### Registrar préstamo
 Permite, a un usuario ya registrado, ingresar el préstamo de ítem con el siguiente proceso:
@@ -82,6 +81,7 @@ Muestra...
 Permite al administrador ingresar al gestor con los siguientes datos:
 - Usuario del administrador
 - Constraseña del usuario
+  
 Si el ingreso es correcto, muestra al administrador el menu de administradores:
 ------------------------------------------------------------
                           MZ.Banks                          
@@ -97,4 +97,18 @@ Si el ingreso es correcto, muestra al administrador el menu de administradores:
     6. Usuario con mayor y menor cantidad de préstamos.
     7. Salir
 
-##
+Se selecciona el número de la opción a realizar
+### Función de cada opción
+#### Total de préstamos registrados
+Muestra un reporte detallado de los prestamos, inicialmente indica la cantidad de prestamos registrados, luego muestra cada prestamo a detalle, indica que número transacción es, el ID del ítem, una descripcion, la cédula del prestamista y la fecha en que fue realizado el prestamo.
+#### Total de ítem devueltos
+Muestra un reporte detallado de las devoluciones, inicialmente indica la cantidad de prestamos devueltos, luego muestra cada devolución a detalle, indica que número devolución es, el ID del ítem, una descripcion, la cédula del prestamista y el estado del ítem devuelto.
+#### Total de ventas realizadas
+mcdwkndskmvcfklds
+#### Total pago realizado
+mcdsomcdklsm
+#### Lista de Usuarios
+Muestra un reporte detallado de los usuarios, inicialmente indica la cantidad de usuarios registrados, luego muestra los datos que fueron solicitados en el registro de cada usuario.
+#### Usuario con mayor y menor cantidad de préstamos
+Muestra un reporte detallado del récord de préstamso activos, el programa indica dos datos el usuario con más prestamos registrados y el que menos tiene, muestra el número de prestamos, el nombre y cédula del usuario.
+#### 
